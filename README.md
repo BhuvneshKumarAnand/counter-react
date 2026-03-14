@@ -1,16 +1,165 @@
-# React + Vite
+# ⚡ Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern **Counter Application** built using **React**, **Vite**, **Tailwind CSS v4**, and **shadcn/ui**.
+The application demonstrates basic **state management in React** along with a clean and responsive UI powered by Tailwind and shadcn components.
 
-Currently, two official plugins are available:
+The project is deployed and accessible online via **Vercel**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live URL:**
+[https://counter-react-seven-roan.vercel.app/](https://counter-react-seven-roan.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+A minimal UI with two cards:
+
+* Counter control (Increment, Decrement, Reset)
+* Reset counter to a custom value
+
+---
+
+## ✨ Features
+
+* 🔢 Increment counter
+* ➖ Decrement counter (prevents negative values)
+* 🔄 Reset counter to zero
+* 🎯 Reset counter to a **custom value**
+* 🎨 Clean UI using **shadcn/ui components**
+* 📱 Responsive layout
+* ⚡ Lightning-fast build with **Vite**
+* 🚀 Deployed on **Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                         |
+| --------------- | ------------------------------- |
+| React           | Frontend UI library             |
+| Vite            | Fast development build tool     |
+| Tailwind CSS v4 | Utility-first styling           |
+| shadcn/ui       | Modern accessible UI components |
+| Vercel          | Hosting & deployment            |
+
+---
+
+## 📂 Project Structure
+
+```
+counter-app
+│
+├── public
+│
+├── src
+│   ├── components
+│   │   └── ui
+│   │       ├── button.jsx
+│   │       ├── card.jsx
+│   │       ├── input.jsx
+│   │       └── label.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/counter-app.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd counter-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The application will start at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+Steps to deploy:
+
+1. Push the project to GitHub
+2. Connect repository to **Vercel**
+3. Vercel automatically builds and deploys the project
+
+---
+
+## 📚 What I Learned
+
+* Setting up a **React + Vite project**
+* Using **Tailwind CSS v4 with PostCSS**
+* Integrating **shadcn/ui components**
+* Managing state using **React hooks**
+* Deploying React applications using **Vercel**
+
+---
+
+## 🔮 Future Improvements
+
+* Add keyboard shortcuts for counter
+* Add animations for increment/decrement
+* Add dark/light theme toggle
+* Store counter state using **localStorage**
+
+---
+
+## 👨‍💻 Author
+
+**Bhuvnesh Kumar Anand**
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
